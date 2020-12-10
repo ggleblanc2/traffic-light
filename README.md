@@ -32,7 +32,7 @@ This application has two model classes, three view classes, and three controller
 
 The TrafficLight class is the model for one of the traffic lights.  This class holds the light Color, a boolean that tells whether the light is on or off, and an int timer that keeps track of the time in seconds that the light remains on.
 
-The TrafficLightModel class creates and modifies three instances of TrafficLight, one for the red, yellow, and green lights.  The default times for these lights are set here.  This class has several methods that gets information from and passes information to the individual instances of TrafficLight.
+The TrafficLightModel class creates and modifies three instances of TrafficLight, one for the red, yellow, and green lights.  The default times for these lights are set here.  This class has several methods that get information from and pass information to the individual instances of TrafficLight.
 
 These two classes are a good example of how to create an object and a collection of those objects.  In this case, the collection is an array, because we know that there will be three traffic lights.
 
