@@ -26,7 +26,7 @@ The process to change the light times is to stop the simulation, adjust the time
 
 When I put together a Java Swing GUI, I almost always use the [model / view / controller](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) pattern.  This pattern helps me separate concerns and allows me to focus on one part of the application at a time.
 
-This application has two model classes, three view classes, and three controller classes.  I made all the classes inner classes so I could keep this entire application in one file.  This makes the code easier to post and share.  For most projects, I recommend putting each class in a separate file, and separating the model, view, and controller classes into sseparate packages.
+This application has two model classes, three view classes, and three controller classes.  I made all the classes inner classes so I could keep this entire application in one file.  This makes the code easier to post and share.  For most projects, I recommend putting each class in a separate file, and separating the model, view, and controller classes into separate packages.
 
 ### Model
 
