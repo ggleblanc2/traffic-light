@@ -52,7 +52,7 @@ The DrawingPanel class draws the traffic light in a drawing JPanel.  We override
 
 Both of these classes get their information from the application model.  Neither of these classes update the spplication model.  The controller classes will update the application model and update the view.
 
-## Controller
+### Controller
 
 The ControlPanel class has an inner controller class, the ChangeTimeListener class.  The ChangeTimeListener class reads the timer values from the JTextFields and stores them in the individual TrafficLight instances.
 
